@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.intro-image {
+    background-image: url('../img/img1.jpg');
+    background-attachment: fixed;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: #86c1d59a;
+    color: #e1c3a8;
+    border: 2px solid #86c1d5;
+    transition: all 0.75s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #3b6676;
+    font-family: 'Irish Grover', cursive;
+    color: #e1c3a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quiality-image {
+    height: 450px;
+    background-attachment: fixed;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position-x: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: #553d3194;
+    color: #fe7752;
+    border: 2px solid #553d31;
+    transition: all 0.75s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text {
+    height: 250px;
+    background-color: #352b32;
+    font-family: 'Irish Grover', cursive;
+    color: #fc7875;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.Origin-image {
+    height: 400px;
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position-x: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Origin-image__link a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: #091eba85;
+    color: #e1d0e3;
+    border: 2px solid #091dba;
+    transition: all 0.75s ease-in-out;
+}
+
+.Origin-image__link a:hover {
+    transform: scale(1.2);
+}
+
+.Origin-text {
+    height: 250px;
+    background-color:#091dba;
+    font-family: 'Irish Grover', cursive;
+    color: #e1d0e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.Origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #242327;
+    color: #186281;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #186281;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
+
+.footer ul li a:hover {
+    color: white;
+}
